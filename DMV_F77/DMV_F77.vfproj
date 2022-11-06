@@ -49,5 +49,5 @@
 		<File RelativePath=".\DMV10.FI"/></Filter>
 		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
 		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
-		<File RelativePath=".\DMV_DRIVER.FOR"/></Filter></Files>
+		<File RelativePath=".\DMV_DRIVER.F"/></Filter></Files>
 	<Globals/></VisualStudioProject>
