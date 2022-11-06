@@ -1,5 +1,25 @@
 # RB_DiscreteMoserVeselov
 
+## Attribution
+
+Original source from https://www.unige.ch/~hairer/software.html
+
+Rigid body integrator, which is described in E. Hairer and G. Vilmart (2006): Preprocessed Discrete Moser-Veselov algorithm for the full dynamics of the rigid body, J. Phys. A: Math. Gen. 39 (2006) 13225-13235.
+
+ - `DMV10.f` - Source file for DMV solvers of order 2,4,6,8, and 10.
+ - `DR_DMV10.f` - Driver program for DMV solver with example code simulating for 10 seconds in 1000 steps.
+ 
+ ## Derived Works
+ 
+  - `DMV_F77/DMV10.FI` - Original Fortrran 77 solver subroutines as an Fortran include file.
+  - `DMV_F77/DMV_DRIVER.F` - Original Fortrran 77 example code as an Fortran source file.
+  - `DMV_F90/mod_dmv.f90` - Ported Fortran 95 solver subroutines in a Fortran module
+  - `DMV_F90/DMV_DRIVER.f90` - Ported Fortran 95 example code as a Fortran program.
+  
+ # Source Code
+ 
+ Here is the description from the original Fortran 77 files.
+
 ```fortran
 C-----------------------------------------------------------------------
 C            PREPROCESSED DISCRETE MOSER-VESELOV ALGORITHM 
